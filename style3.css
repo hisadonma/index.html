@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.logo  a
+{
+  text-decoration:none;
+  color: #757575;
+
+}
+.logo a:hover
+{
+  color:#000;
+}
+.about
+{
+  color:#000;
+
+}
+.pro_photo
+{
+  width: 100%;
+  margin: 1.8rem 0 2rem 0;
+}
+.pro_photo >img
+{
+  width: 100%;
+}
+.profile_box
+{
+  position: relative;
+  height: auto;
+  width: 100%;
+  color:#fff;
+  font-size: 20px;
+  padding: 20px;
+}
+.name
+{
+    font-size:30px;
+    background-color:#79bd9a;
+    width: 30%;
+    text-align: center;
+}
+.pro_message
+{
+  margin-top: 15px;
+  line-height: 2rem;
+  width:auto;
+  word-wrap: normal;
+  color: #757575;
+  padding: 20px;
+  background-color: rgba(168, 219, 168, 0.42);
+  font-size:1.5rem;
+
+}

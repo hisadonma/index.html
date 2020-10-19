@@ -1,0 +1,292 @@
+
+  @charset "UTF-8";
+*
+{
+  margin:0;
+  padding:0;
+
+}
+.logo
+{
+  position: relative;
+  left:10px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.logo > p
+{
+  font-size: 15px;
+}
+.wf-roundedmplus1c
+{
+  font-family: "M PLUS Rounded 1c";
+}
+
+header
+{
+  position: relative;
+  height: 50px;
+  background-color: #DEDEDE;
+  color:#fff;
+  width:100%;
+  height: auto;
+  padding: 20px 20px;
+
+}
+li
+{
+  padding: 0 10px ;
+}
+.sns
+{
+  bottom:30px;
+}
+ul
+{
+  list-style: none;
+  display: flex;
+  flex-direction:row;
+  position:absolute;
+  right:0;
+  bottom:0;
+}
+body
+{
+background-color:#fff;
+}
+main
+{
+  position: relative;
+
+  padding: 1.5rem 0;
+}
+
+.photo
+{
+
+  position: absolute;
+  height: auto;
+  bottom:0;
+}
+#box
+{
+
+  position:relative;
+  height: auto;
+  margin: 3rem 0;
+}
+.photo1
+{
+  position: relative;
+  width: 100%;
+}
+.a
+{
+  width: 100%;
+  position: relative;
+  margin-left: auto;
+
+}
+
+.line1
+{
+padding:20px;
+position: absolute;
+margin: auto 0;
+left:40px;
+bottom: 3rem;
+width:35vw;
+
+}
+
+#concept
+{
+  position: relative;
+  text-align: center;
+  height: auto;
+  z-index: 1;
+
+
+}
+.concept_message::before
+{
+  position: absolute;
+  background: rgb(9, 152, 244);
+  content: "";
+  top:1rem;
+  bottom:-3rem;
+  left: -3rem;
+  right: 3rem;
+  width:auto;
+  height:auto;
+  opacity: 0.2;
+  z-index: -1;
+
+}
+.concept_message::after
+{
+  position: absolute;
+  background: rgb(247, 217, 12);
+  content: "";
+
+  bottom:-7rem;
+  top:12rem;
+  left:18rem;
+  right: -3rem;
+  width:auto;
+  height: auto;
+  opacity: 0.4;
+
+
+}
+
+.concept_title
+{
+
+  background-color:rgb(237, 176, 71);
+  color:#fff;
+
+  padding: 0.5em 0.7em;
+  position: relative;
+  font-size: 2vw;
+
+  width:20vw;
+  padding:5px 10px;
+  z-index: 2;
+}
+
+.color_box
+{
+  background-color: #fffffa;
+  padding: 30px 0 ;
+  position: relative;
+  border: 1px solid;
+
+
+}
+
+.photo
+{
+
+  position:absolute;
+bottom:0;
+  right:0;
+  padding: 50px 0 ;
+}
+.concept_message
+{
+  position: relative;
+  font-size: 1.2vw;
+  height: auto;
+  line-height: auto;
+  text-align:left;
+  padding: 30px 0px 30px 10px;
+
+  background-color:#fffffa;
+}
+
+.mainphoto
+{
+  text-align:center;
+  width:100%;
+  z-index:1;
+}
+.content > h2
+{
+  text-align: center;
+  margin:20px;
+}
+.b
+{
+  position: absolute;
+  height: auto;
+  width: 5rem;
+  border: 1px solid;
+  bottom :0;
+  right:0px;
+}
+.line2
+{
+  width:20%;
+  position: relative;
+  left:0;
+
+}
+.line2::before
+{
+  position: absolute;
+  background: #f00;
+  content: "";
+
+  bottom:1rem;
+  top:1rem;
+  left:1rem;
+  right: 1rem;
+  width:auto;
+  height: auto;
+  opacity: 0.4;
+}
+.line2::after
+{
+  position: absolute;
+  background: rgb(247, 217, 12);
+  content: "";
+  bottom:3rem;
+  top:3rem;
+  left:3rem;
+  right: 3rem;
+  width:auto;
+  height: auto;
+  opacity: 0.4;
+}
+.logo
+{
+  width:100%;
+}
+
+
+
+
+
+.service
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.box
+{
+    border: 1px solid;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.name
+{
+  position:relative;
+  color:#f00;
+  font-size: 15px;
+
+
+}
+.fab
+{
+  color: #000000;
+  font-size: 20px;
+  margin: 0;
+  opacity: 0.2;
+}
+.fab:hover
+{
+  opacity: 1;
+}
+.menu  a
+{
+  text-decoration:none;
+  color: #000;
+}
+.menu a:hover
+{
+  text-decoration: underline;
+}
